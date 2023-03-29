@@ -3,7 +3,7 @@
 import pandas as pd
 import streamlit as st
 
-df = pd.read_csv(r"C:\Users\Asus\OneDrive - De La Salle Medical and Health Sciences Institute\Documents\Data Science\active health facilities\activefacilities.csv")
+df = pd.read_csv("activefacilities.csv")
 facilities = df.loc[:, ['Health Facility Code', 'Health Facility Code Short',
                         'Facility Name', 'Facility Major Type', 'Health Facility Type', 
                         'Ownership Major Classification', 'Region Name', 'Province Name',
